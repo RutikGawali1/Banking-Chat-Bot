@@ -1,31 +1,167 @@
 {
   "intents": [
     {
+      "tag": "grettings",
+      "patterns": [
+        "hiiiiii","hi","hii","hiii","hey",
+        "hello"
+      ],
+      "responses": [
+        "Hi there, hope you're doing great"
+      ]
+    },
+    {
       "tag": "Banking",
       "patterns": [
         "I want to open my bank account",
-        "What is Interest Rate for Saving Account?",
-        "What is Interest Rate on Home Loan? ",
-        "Which type of Account is for student?",
-        "What is Cash Limit for Debit Card?",
-        "Is Your Bank having Internet Banking Facility?",
-        "I Want My Last Transaction Detail.",
-        "Can I withdraw 500000 from my bank account at a time?",
-        "How I can open Fixed Deposit?",
-        "What document required to open new account?"
+        "account","Open bank account"
+      ],
+      "responses": [
+        "Please Visit Branch with Your identity proof"
+      ]
+    },
+     {
+      "tag":"Type Loan",
+      "patterns": [
+        "which type of loan?",
+        "type of loan"
+      ],
+      "responses": [
+        "Home loan/Car loan/Educational loan/Personal loan/Business loan/Gold Loan/Loan on Credit Card"
+      ]
+    },
+    {
+      "tag":"Apply loan",
+      "patterns": [
+        "How can i apply for loan",
+        "Apply"," for loan","Apply to loan"
+      ],
+      "responses": [
+        "Please Visit your nearest Branch or you can also apply form our official web site"
+      ]
+    },
+     {
+      "tag":"limit of loan",
+      "patterns": [
+        "How much loan can bank approve?",
+        "loan can bank approve","loan approve","limit of loan"
+      ],
+      "responses": [
+        "It's based on you credit score"
+      ]
+    },
+    {
+      "tag":"Different type account",
+      "patterns": [
+        "Types of account"," type of bank account","account type"
+      ],
+      "responses": [
+        "saving account/ Current account/ Business account/ salary account/ fixed deposit account"
+      ]
+    },
+    {
+      "tag":"Card type",
+      "patterns": [
+        "Which type of card?","card","type of card","card type",
+        "different card"
+      ],
+      "responses": [
+        "Debit card/ Credit card /Prepaid card/ forex card/ Commercial Credit card"
+      ]
+    },
+    {
+      "tag":"Online account",
+      "patterns": [
+        "How can I open online or digital account",
+        "digital account","online account","open digital account",
+        "open online account"
 
       ],
       "responses": [
-        "Please Visit Branch with Your identity proof",
-        "For Saving Account Interest Rate is 8.8% Per Annum.",
-        "9.52 % Per Annum.",
-        "Student Saving Account.",
-        "Student Saving Account.",
-        "Yes.",
-        "Please Give Missed Call on xxxxxxxxxx from Your Registered mobile number.",
-        "Yes, Please Carry Your pan card with you.",
-        "Please Visit Nearest Branch.",
-        "ID Proof, Passport size photo, Address Proof."
+        "visit our web site https://youtu.be/JQUQ1ELRfV8"
+      ]
+    },
+    {
+      "tag":"Home interest rate",
+      "patterns": [
+        "Home loan interest"
+      ],
+      "responses": [
+        "Home loan-8.25%"
+      ]
+    },
+    {
+      "tag":"Car interest rate",
+      "patterns": [
+        "car loan interest"
+      ],
+      "responses": [
+        "car loan-10.40%%"
+      ]
+    },
+    {
+      "tag":"Interest rate",
+      "patterns": [
+        "Education loan interest"
+      ],
+      "responses": [
+        "Education loan-8.55%%"
+      ]
+    },
+    {
+      "tag":" Personal interest rate",
+      "patterns": [
+        "Personal  loan interest"
+      ],
+      "responses": [
+        "Personal loan-10.5%"
+      ]
+    },
+    {
+      "tag":"Business interest rate",
+      "patterns": [
+        "Business loan interest"
+      ],
+      "responses": [
+        "Business loan-9.75%"
+      ]
+    },
+    {
+      "tag":"Gold interest rate",
+      "patterns": [
+        "Gold loan interest"
+      ],
+      "responses": [
+        "Gold loan-7%"
+      ]
+    },
+     {
+      "tag":"Credit interest rate",
+      "patterns": [
+        "Credit loan interest"
+      ],
+      "responses": [
+        "Credit loan-8.15%"
+      ]
+    },
+    {
+      "tag":"Saving interest",
+      "patterns": [
+        "What is Interest Rate for Saving Account?",
+        "saving account interest rate"
+      ],
+      "responses": [
+        "For Saving Account Interest Rate is 8.8% Per Annum."
+      ]
+    },
+    {
+      "tag":"Exit,Quit",
+      "patterns": [
+        "Quit",
+        "Exit"
+      ],
+      "responses": [
+        "Thank you","Have Nice Day"
       ]
     }
   ]
